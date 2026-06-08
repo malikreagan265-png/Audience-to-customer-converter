@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>How to Convert Your Audience Into Paying Customers — Funnel Audit & Conversion System</title>
+  <meta name="description" content="Stop losing followers who never buy. Audit your funnel, position your offer, and build a 5-email conversion sequence. AI-powered system for creators and digital product sellers." />
+  <meta name="keywords" content="how to convert audience to customers, convert followers to buyers, creator funnel audit, offer positioning framework, email sequence for creators, digital product conversion" />
+  <link rel="canonical" href="https://malikreagan.gumroad.com/l/audience-to-customer-converter" />
+
+  <!-- OG -->
+  <meta property="og:title" content="Audience-to-Customer Converter — Turn Followers Into Buyers" />
+  <meta property="og:description" content="Funnel audit, offer positioning framework, and 5-email conversion sequence builder. Three tools that fix the gap between audience and sales." />
+  <meta property="og:type" content="website" />
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Audience-to-Customer Converter",
+    "applicationCategory": "BusinessApplication",
+    "description": "AI-powered funnel audit, offer positioning framework, and email sequence builder for creators and digital product sellers.",
+    "offers": { "@type": "Offer", "price": "67.00", "priceCurrency": "USD" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "29" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why does my audience not buy from me?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The most common reasons an audience doesn't convert to buyers are: no email list to bridge social followers to a sales environment, an unclear offer (people don't know exactly what they're buying), insufficient promotion frequency (most sales happen after the 5th touchpoint, not the 1st), a trust gap where content doesn't demonstrate that you can deliver the transformation you're selling, and pricing signals that feel misaligned with perceived value. The Audience-to-Customer Converter audits your specific setup and identifies which of these is your primary leak."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do you convert social media followers into customers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The most reliable path from follower to customer has three steps: move them from social to email (where conversion rates are 10-20x higher than social), deliver consistent value that builds trust and demonstrates your expertise, then make offers that are specific, clearly positioned, and repeated regularly. Most creators fail at step one — they have no system to capture followers' email addresses before making an offer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a good conversion rate for selling to an audience?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Conversion rates vary significantly by channel and audience temperature. Direct social-to-sale (cold) typically converts at 0.1–0.5%. Email sequences to warm subscribers convert at 1–3%. A dedicated sales page with traffic from warm sources converts at 2–5%. Repeat buyers convert at 20–40%. If your rates are below these benchmarks, the issue is usually trust, offer clarity, or promotion frequency — not audience size."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many emails does it take to convert a follower into a buyer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Research consistently shows that most sales happen between the 5th and 12th touchpoint. A cold follower who downloads a freebie and receives one sales email will convert at a fraction of the rate of someone who has received 5 emails that build trust before the offer is made. The 5-email sequence in the Audience-to-Customer Converter is structured to deliver value for the first four emails before making the direct offer in email five."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display:ital@0;1&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Epilogue:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --cream: #F5EFE4;
+      --cream2: #EDE5D6;
+      --cream3: #E2D8C8;
+      --burg: #6B1A2A;
+      --burg2: #8B2A3E;
+      --burg3: #C44A60;
+      --burg-dim: #6B1A2A12;
+      --ink: #1E1610;
+      --ink2: #3A2E24;
+      --ink3: #7A6E60;
+      --ink4: #B0A490;
+      --rule: #D4C8B4;
+      --gold: #B88A20;
+      --green: #1A6B3A;
+      --white: #FFFDF8;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--cream);
+      color: var(--ink);
+      font-family: 'Epilogue', sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3 { font-family: 'Libre Caslon Display', serif; }
+
+    .container { max-width: 880px; margin: 0 auto; padding: 0 36px; }
+    .wide { max-width: 1080px; margin: 0 auto; padding: 0 36px; }
+
+    /* NAV */
+    nav {
+      background: var(--burg);
+      padding: 0 36px; height: 56px;
+      display: flex; justify-content: space-between; align-items: center;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .nav-logo {
+      font-family: 'Libre Caslon Display', serif;
+      font-size: 16px; font-style: italic; color: var(--cream);
+      text-decoration: none;
+    }
+    .nav-cta {
+      background: var(--cream); color: var(--burg);
+      font-family: 'Courier Prime', monospace;
+      font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+      padding: 9px 20px; text-decoration: none;
+      font-weight: 700; transition: all 0.15s;
+    }
+    .nav-cta:hover { background: var(--cream2); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      background: var(--burg);
+      padding: 80px 0 72px;
+      border-bottom: 4px solid var(--gold);
+      position: relative; overflow: hidden;
+    }
+    .hero-texture {
+      position: absolute; inset: 0;
+      background-image: radial-gradient(circle at 20% 80%, rgba(180,80,100,0.2) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(100,10,20,0.3) 0%, transparent 50%);
+    }
+    .hero-inner { position: relative; }
+    .hero-kicker {
+      font-family: 'Courier Prime', monospace;
+      font-size: 9px; letter-spacing: 5px; text-transform: uppercase;
+      color: #C48898; margin-bottom: 24px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .hero-kicker::before { content: ''; width: 32px; height: 1px; background: #C48898; opacity: 0.5; }
+    .hero-h1 {
+      font-size: clamp(44px, 7vw, 88px);
+      font-weight: 400; font-style: italic;
+      color: var(--cream); line-height: 1.0;
+      margin-bottom: 28px; letter-spacing: -1px;
+    }
+    .hero-h1 strong { font-style: normal; font-family: 'Libre Caslon Text', serif; font-weight: 700; color: var(--gold); }
+    .hero-sub {
+      font-size: 16px; color: #C48898;
+      max-width: 520px; line-height: 1.8;
+      margin-bottom: 44px; font-weight: 300;
+    }
+    .hero-actions { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-bottom: 56px; }
+    .btn-primary {
+      background: var(--gold); color: var(--ink);
+      font-family: 'Courier Prime', monospace;
+      font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+      padding: 16px 40px; text-decoration: none;
+      font-weight: 700; transition: all 0.2s; display: inline-block;
+    }
+    .btn-primary:hover { background: #C89A30; transform: translateY(-2px); box-shadow: 0 10px 40px rgba(184,138,32,0.3); }
+    .btn-ghost {
+      color: #8A5A68; font-family: 'Courier Prime', monospace;
+      font-size: 10px; letter-spacing: 2px; text-decoration: none;
+      border-bottom: 1px solid #4A2A38; padding-bottom: 2px;
+      text-transform: uppercase; transition: all 0.15s;
+    }
+    .btn-ghost:hover { color: var(--cream); border-color: #8A5A68; }
+    .hero-stats {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      border: 1px solid rgba(255,255,255,0.1); max-width: 560px;
+    }
+    .stat-box {
+      padding: 18px 16px; border-right: 1px solid rgba(255,255,255,0.1);
+      text-align: center;
+    }
+    .stat-box:last-child { border-right: none; }
+    .stat-num {
+      font-family: 'Libre Caslon Display', serif;
+      font-size: 30px; font-style: italic; color: var(--gold);
+      line-height: 1; margin-bottom: 4px;
+    }
+    .stat-label {
+      font-family: 'Courier Prime', monospace;
+      font-size: 9px; letter-spacing: 1px; text-transform: uppercase; color: #8A5A68;
+    }
+
+    /* SECTIONS */
+    .section { padding: 88px 0; border-top: 1px solid var(--rule); }
+    .eyebrow {
+      font-family: 'Courier Prime', monospace;
+      font-size: 9px; letter-spacing: 5px; text-transform: uppercase;
+      color: var(--ink4); margin-bottom: 16px;
+    }
+    .section-title {
+      font-size: clamp(36px, 5vw, 60px); font-style: italic;
+      line-height: 1.0; margin-bottom: 14px; letter-spacing: -0.5px;
+    }
+    .section-title strong { font-style: normal; font-family: 'Libre Caslon Text', serif; font-weight: 700; color: var(--burg); }
+    .section-sub {
+      font-size: 15px; color: var(--ink3); max-width: 520px;
+      line-height: 1.8; font-weight: 300; margin-bottom: 52px;
+    }
+
+    /* TRUTH SECTION */
+    .truth-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin-top: 48px; }
+    @media (max-width: 600px) { .truth-grid { grid-template-columns: 1fr; } }
+    .truth-item { background: var(--white); padding: 28px 30px; }
+    .truth-num {
+      font-family: 'Libre Caslon Display', serif;
+      font-size: 48px; font-style: italic; color: var(--rule);
+      line-height: 1; margin-bottom: 10px;
+    }
+    .truth-text { font-size: 14px; color: var(--ink3); font-style: italic; line-height: 1.7; }
+    .truth-text strong { font-style: normal; color: var(--burg); font-weight: 700; }
+
+    /* TOOLS */
+    .tool-list { display: flex; flex-direction: column; gap: 2px; margin-top: 48px; }
+    .tool-item {
+      display: grid; grid-template-columns: 72px 1fr;
+      background: var(--white); border: 1px solid var(--rule);
+    }
+    .tool-num {
+      display: flex; align-items: center; justify-content: center;
+      background: var(--burg); color: var(--gold);
+      font-family: 'Libre Caslon Display', serif;
+      font-size: 28px; font-style: italic;
+      border-right: 1px solid var(--burg2);
+    }
+    .tool-body { padding: 24px 28px; }
+    .tool-tag {
+      font-family: 'Courier Prime', monospace;
+      font-size: 8px; letter-spacing: 3px; text-transform: uppercase;
+      color: var(--burg); margin-bottom: 6px;
+    }
+    .tool-name {
+      font-family: 'Libre Caslon Text', serif;
+      font-size: 20px; font-weight: 700; color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .tool-desc { font-size: 13px; color: var(--ink3); line-height: 1.7; margin-bottom: 12px; font-weight: 300; }
+    .tool-features { display: flex; gap: 8px; flex-wrap: wrap; }
+    .tool-feat {
+      font-family: 'Courier Prime', monospace; font-size: 9px;
+      letter-spacing: 1px; padding: 4px 10px;
+      border: 1px solid var(--rule); color: var(--ink4); text-transform: uppercase;
+    }
+
+    /* FUNNEL LEAKS */
+    .leaks-list { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--rule); margin-top: 48px; max-width: 640px; }
+    .leak-row {
+      display: flex; gap: 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    .leak-row:last-child { border-bottom: none; }
+    .leak-num {
+      min-width: 56px; padding: 20px 16px;
+      background: var(--burg); color: var(--gold);
+      font-family: 'Libre Caslon Display', serif;
+      font-size: 22px; font-style: italic;
+      display: flex; align-items: center; justify-content: center;
+      border-right: 1px solid var(--burg2); flex-shrink: 0;
+    }
+    .leak-body { padding: 18px 22px; background: var(--white); }
+    .leak-title {
+      font-family: 'Libre Caslon Text', serif;
+      font-size: 15px; font-weight: 700; color: var(--ink);
+      margin-bottom: 4px;
+    }
+    .leak-desc { font-size: 13px; color: var(--ink3); line-height: 1.6; font-weight: 300; }
+
+    /* TESTIMONIALS */
+    .test-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 48px; }
+    .test-card {
+      background: var(--white); border: 1px solid var(--rule);
+      padding: 28px; border-top: 3px solid var(--burg);
+    }
+    .stars { color: var(--gold); font-size: 12px; letter-spacing: 3px; margin-bottom: 14px; }
+    .test-card p { font-size: 14px; font-style: italic; color: var(--ink2); line-height: 1.8; margin-bottom: 16px; font-weight: 300; }
+    .test-attr { font-family: 'Courier Prime', monospace; font-size: 9px; letter-spacing: 2px; color: var(--ink4); text-transform: uppercase; }
+
+    /* PRICING */
+    .pricing-card {
+      max-width: 520px; margin: 48px auto 0;
+      background: var(--white); border: 1px solid var(--rule);
+      border-top: 4px solid var(--burg); overflow: hidden;
+    }
+    .pricing-top { background: var(--burg); padding: 40px 44px; text-align: center; }
+    .pricing-kicker { font-family: 'Courier Prime', monospace; font-size: 9px; letter-spacing: 4px; text-transform: uppercase; color: #C48898; margin-bottom: 14px; }
+    .price { font-family: 'Libre Caslon Display', serif; font-size: 80px; font-style: italic; color: var(--gold); line-height: 1; }
+    .price-sub { font-family: 'Courier Prime', monospace; font-size: 9px; letter-spacing: 3px; text-transform: uppercase; color: #8A5A68; margin-top: 8px; }
+    .pricing-body { padding: 36px 44px; }
+    .feature-list { list-style: none; margin-bottom: 32px; }
+    .feature-list li { display: flex; gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2); line-height: 1.5; }
+    .feature-list li:last-child { border-bottom: none; }
+    .check { color: var(--burg); flex-shrink: 0; padding-top: 2px; }
+    .btn-purchase {
+      display: block; width: 100%;
+      background: var(--burg); color: var(--cream);
+      font-family: 'Courier Prime', monospace; font-size: 11px;
+      letter-spacing: 3px; text-transform: uppercase;
+      padding: 18px; text-align: center; text-decoration: none;
+      font-weight: 700; transition: all 0.15s;
+    }
+    .btn-purchase:hover { background: var(--burg2); transform: translateY(-1px); }
+    .guarantee { text-align: center; margin-top: 16px; font-family: 'Courier Prime', monospace; font-size: 9px; letter-spacing: 1px; color: var(--ink4); text-transform: uppercase; }
+
+    /* FAQ */
+    .faq-list { margin-top: 48px; border: 1px solid var(--rule); background: var(--white); }
+    .faq-item { border-bottom: 1px solid var(--rule); }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      gap: 16px; padding: 22px 28px; cursor: pointer;
+      font-family: 'Libre Caslon Text', serif;
+      font-size: 16px; font-weight: 700; color: var(--ink); line-height: 1.3;
+      background: none; border: none; width: 100%; text-align: left; transition: background 0.15s;
+    }
+    .faq-q:hover { background: var(--cream2); }
+    .faq-toggle { color: var(--burg); font-size: 22px; font-weight: 300; line-height: 1; flex-shrink: 0; font-family: sans-serif; }
+    .faq-a { display: none; padding: 0 28px 22px; font-size: 14px; color: var(--ink3); line-height: 1.8; font-weight: 300; }
+
+    /* CTA */
+    .cta-section { background: var(--burg); padding: 100px 0; border-top: 4px solid var(--gold); text-align: center; }
+    .cta-section h2 {
+      font-size: clamp(36px, 6vw, 72px); font-style: italic; font-weight: 400;
+      color: var(--cream); line-height: 1.0; margin-bottom: 16px; letter-spacing: -1px;
+    }
+    .cta-section h2 strong { font-style: normal; font-family: 'Libre Caslon Text', serif; font-weight: 700; color: var(--gold); }
+    .cta-section p { font-size: 15px; color: #C48898; margin-bottom: 36px; max-width: 420px; margin-left: auto; margin-right: auto; line-height: 1.8; font-weight: 300; }
+    .cta-note { margin-top: 16px; font-family: 'Courier Prime', monospace; font-size: 9px; color: #8A5A68; letter-spacing: 2px; text-transform: uppercase; }
+
+    /* FOOTER */
+    footer { padding: 28px 36px; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; background: var(--cream2); }
+    .footer-logo { font-family: 'Libre Caslon Display', serif; font-size: 14px; font-style: italic; color: var(--ink3); }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-family: 'Courier Prime', monospace; font-size: 9px; color: var(--ink4); text-decoration: none; letter-spacing: 1px; text-transform: uppercase; }
+    .footer-links a:hover { color: var(--ink); }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
+    .hero-inner > * { animation: fadeUp 0.5s ease both; opacity: 0; }
+    .hero-kicker  { animation-delay: 0.05s; }
+    .hero-h1      { animation-delay: 0.12s; }
+    .hero-sub     { animation-delay: 0.2s; }
+    .hero-actions { animation-delay: 0.26s; }
+    .hero-stats   { animation-delay: 0.32s; }
+
+    @media (max-width: 600px) {
+      .container, .wide { padding: 0 20px; }
+      .section { padding: 60px 0; }
+      nav { padding: 0 20px; }
+      .pricing-top, .pricing-body { padding: 28px 24px; }
+      footer { padding: 20px; }
+      .hero-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-logo">Audience-to-Customer Converter</a>
+  <a href="https://malikreagan.gumroad.com/l/audience-to-customer-converter" class="nav-cta">Get It — $67</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-texture"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-kicker">Audience-to-Customer Converter</div>
+      <h1 class="hero-h1">
+        Your audience likes you.<br/>
+        They just won't<br/>
+        <strong>buy from you.</strong>
+      </h1>
+      <p class="hero-sub">
+        That's not an audience problem. It's a system problem. The Audience-to-Customer Converter gives you the three tools that fix it.
+      </p>
+      <div class="hero-actions">
+        <a href="https://malikreagan.gumroad.com/l/audience-to-customer-converter" class="btn-primary">Get the Converter — $67</a>
+        <a href="#tools" class="btn-ghost">See all three tools ↓</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-box">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Tools inside</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Funnel leaks identified</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">6</div>
+          <div class="stat-label">Offer frameworks</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Email sequence</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">The real problem</p>
+    <h2 class="section-title">It's not your content.<br/>It's your <strong>system.</strong></h2>
+    <p class="section-sub">Most creators with conversion problems aren't bad at marketing. They're missing one or more of the same five things.</p>
+    <div class="truth-grid">
+      <div class="truth-item">
+        <div class="truth-num">01</div>
+        <p class="truth-text">Your audience lives on social but your offer lives somewhere else. There's <strong>no bridge between them.</strong></p>
+      </div>
+      <div class="truth-item">
+        <div class="truth-num">02</div>
+        <p class="truth-text">Your offer isn't clear enough. "What exactly am I buying?" is a question that <strong>always beats purchase.</strong></p>
+      </div>
+      <div class="truth-item">
+        <div class="truth-num">03</div>
+        <p class="truth-text">You promoted once at launch and never again. <strong>Most sales happen after the 5th mention,</strong> not the first.</p>
+      </div>
+      <div class="truth-item">
+        <div class="truth-num">04</div>
+        <p class="truth-text">Your content is good but it doesn't <strong>prove you can deliver</strong> the transformation you're selling.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section class="section" id="tools">
+  <div class="container">
+    <p class="eyebrow">What's inside</p>
+    <h2 class="section-title">Three tools.<br/>One <strong>conversion system.</strong></h2>
+    <p class="section-sub">Each tool fixes a different part of the gap between audience and sales.</p>
+    <div class="tool-list">
+      <div class="tool-item">
+        <div class="tool-num">01</div>
+        <div class="tool-body">
+          <div class="tool-tag">Diagnosis</div>
+          <div class="tool-name">AI Funnel Audit</div>
+          <div class="tool-desc">Answer 8 questions about your audience, platform, email list, offer, promotion habits, and sales page. The AI audits your specific setup and returns a conversion health score, your single biggest leak, and a prioritised fix list with time-to-implement for each action.</div>
+          <div class="tool-features">
+            <span class="tool-feat">Conversion health score</span>
+            <span class="tool-feat">Top leak identified</span>
+            <span class="tool-feat">5 ranked fixes</span>
+            <span class="tool-feat">Impact estimates</span>
+          </div>
+        </div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-num">02</div>
+        <div class="tool-body">
+          <div class="tool-tag">Positioning</div>
+          <div class="tool-name">Offer Positioning Framework</div>
+          <div class="tool-desc">Six frameworks for writing offer copy that converts followers into buyers. Fill in the fields for each framework — the positioning statement updates live as you type. Covers outcome statements, ROI framing, objection killing, social proof, cost of inaction, and specificity hooks.</div>
+          <div class="tool-features">
+            <span class="tool-feat">6 frameworks</span>
+            <span class="tool-feat">Live preview</span>
+            <span class="tool-feat">One-click copy</span>
+            <span class="tool-feat">Works for any offer</span>
+          </div>
+        </div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-num">03</div>
+        <div class="tool-body">
+          <div class="tool-tag">Conversion</div>
+          <div class="tool-name">5-Email Sequence Builder</div>
+          <div class="tool-desc">Enter your product, price, audience, and transformation. Get a complete 5-email cold-to-buyer sequence: Day 0 deliver value, Day 2 agitate the problem, Day 4 transformation story, Day 6 social proof and objection handling, Day 9 hard offer. Each email under 250 words. Written for your specific product.</div>
+          <div class="tool-features">
+            <span class="tool-feat">5 emails written</span>
+            <span class="tool-feat">Day-by-day schedule</span>
+            <span class="tool-feat">Subject lines included</span>
+            <span class="tool-feat">One-click copy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE 5 LEAKS -->
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">The audit covers</p>
+    <h2 class="section-title">The 5 places your<br/><strong>funnel leaks.</strong></h2>
+    <p class="section-sub">The audit identifies which of these is your primary problem — and gives you a specific fix, not generic advice.</p>
+    <div class="leaks-list">
+      <div class="leak-row">
+        <div class="leak-num">1</div>
+        <div class="leak-body">
+          <div class="leak-title">No Bridge</div>
+          <div class="leak-desc">Audience on social, offer on a different platform. No email list, no path between them. The most common and most fixable leak.</div>
+        </div>
+      </div>
+      <div class="leak-row">
+        <div class="leak-num">2</div>
+        <div class="leak-body">
+          <div class="leak-title">Trust Gap</div>
+          <div class="leak-desc">Followers don't believe you can deliver what you're selling. Your content doesn't prove it. Engagement is high, sales are zero.</div>
+        </div>
+      </div>
+      <div class="leak-row">
+        <div class="leak-num">3</div>
+        <div class="leak-body">
+          <div class="leak-title">Unclear Offer</div>
+          <div class="leak-desc">"What exactly am I buying?" is unanswered. Every unresolved question in a buyer's mind is a reason not to purchase.</div>
+        </div>
+      </div>
+      <div class="leak-row">
+        <div class="leak-num">4</div>
+        <div class="leak-body">
+          <div class="leak-title">Wrong Price Signal</div>
+          <div class="leak-desc">Price too low signals low value. Price too high without sufficient trust signals risk. Both kill conversion — for opposite reasons.</div>
+        </div>
+      </div>
+      <div class="leak-row">
+        <div class="leak-num">5</div>
+        <div class="leak-body">
+          <div class="leak-title">Invisible Offer</div>
+          <div class="leak-desc">You promote once at launch and go quiet. Most sales happen between the 5th and 12th touchpoint. Silence after launch is revenue left behind.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">What people say</p>
+    <h2 class="section-title">Used on real<br/><strong>product launches.</strong></h2>
+    <div class="test-grid">
+      <div class="test-card">
+        <div class="stars">★★★★★</div>
+        <p>"The funnel audit told me in 60 seconds what a $2,000 consultant told me in two weeks. Wrong price point, no email bridge. Fixed both. Sales tripled."</p>
+        <p class="test-attr">Digital Product Creator · 22K followers</p>
+      </div>
+      <div class="test-card">
+        <div class="stars">★★★★★</div>
+        <p>"The email sequence builder wrote 5 emails for my course launch in 3 minutes. I'd spent a week trying to write them myself. Should be embarrassing how good it is."</p>
+        <p class="test-attr">Online Course Creator</p>
+      </div>
+      <div class="test-card">
+        <div class="stars">★★★★★</div>
+        <p>"I didn't realise my offer was completely unclear until I tried to fill in the positioning frameworks. That exercise alone was worth 10x the price."</p>
+        <p class="test-attr">Freelancer turning audience into clients</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <div class="container">
+    <p class="eyebrow" style="text-align:center">Pricing</p>
+    <h2 class="section-title" style="text-align:center">One price.<br/>The full <strong>system.</strong></h2>
+    <div class="pricing-card">
+      <div class="pricing-top">
+        <div class="pricing-kicker">Audience-to-Customer Converter</div>
+        <div class="price">$67</div>
+        <div class="price-sub">One-time · No subscription · Instant download</div>
+      </div>
+      <div class="pricing-body">
+        <ul class="feature-list">
+          <li><span class="check">✦</span>AI Funnel Audit — conversion health score + ranked fix list</li>
+          <li><span class="check">✦</span>6 Offer Positioning Frameworks — live preview, one-click copy</li>
+          <li><span class="check">✦</span>5-Email Conversion Sequence Builder — written for your specific product</li>
+          <li><span class="check">✦</span>Works in any browser — no install, no login</li>
+          <li><span class="check">✦</span>Lifetime access — free updates as new frameworks are added</li>
+        </ul>
+        <a href="https://malikreagan.gumroad.com/l/audience-to-customer-converter" class="btn-purchase">
+          Get the Audience-to-Customer Converter — $67
+        </a>
+        <p class="guarantee">7-day money-back guarantee · No questions asked</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">FAQ</p>
+    <h2 class="section-title" style="margin-bottom:0">Questions.</h2>
+    <div class="faq-list" id="faqList"></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Your audience is ready.<br/>Your system just needs to <strong>catch up.</strong></h2>
+    <p>Three tools. One purchase. A conversion system that works while you sleep.</p>
+    <a href="https://malikreagan.gumroad.com/l/audience-to-customer-converter" class="btn-primary">Get the Converter — $67</a>
+    <p class="cta-note">One-time · 7-day guarantee · Instant download</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">Audience-to-Customer Converter</div>
+  <div class="footer-links">
+    <a href="#">Privacy</a>
+    <a href="#">Refund Policy</a>
+    <a href="mailto:hello@malikreagan.com">Contact</a>
+  </div>
+</footer>
+
+<script>
+const FAQS = [
+  { q:"Why does my audience not buy from me?", a:"The most common reasons are: no email list to bridge social followers to a sales environment, an unclear offer where people don't know exactly what they're buying, insufficient promotion frequency (most sales happen after the 5th touchpoint), a trust gap where your content doesn't prove you can deliver the transformation, and pricing signals that feel misaligned with perceived value. The Funnel Audit identifies which of these is your primary leak." },
+  { q:"How do I convert social media followers into customers?", a:"The most reliable path has three steps: move them from social to email (conversion rates are 10–20x higher), deliver consistent value that builds trust, then make offers that are specific, clearly positioned, and repeated regularly. The three tools in the Converter address each of these steps directly." },
+  { q:"How many emails does it take to convert a follower into a buyer?", a:"Research consistently shows most sales happen between the 5th and 12th touchpoint. A cold follower who receives one sales email will convert at a fraction of the rate of someone who has received 5 trust-building emails before the offer. The sequence builder is structured to deliver value in emails 1–4 before making the direct offer in email 5." },
+  { q:"What format is the tool?", a:"A single HTML file. Open in any browser — no install, no login, no subscription. The Funnel Audit and Email Sequence Builder use the Claude AI API, so those features require an internet connection. The Offer Positioning Frameworks work fully offline." },
+  { q:"Does this work for any type of offer?", a:"Yes — digital products, courses, coaching, memberships, services, or physical products. The Funnel Audit and Offer Frameworks ask for your specific inputs and adapt accordingly. The Email Sequence Builder generates copy specific to your product, price, and transformation." },
+  { q:"What if I'm not happy with it?", a:"7-day money-back guarantee. Email within 7 days of purchase for a full refund. No questions, no friction." }
+];
+
+const faqList = document.getElementById('faqList');
+FAQS.forEach((f, i) => {
+  const div = document.createElement('div');
+  div.className = 'faq-item';
+  div.innerHTML = `
+    <button class="faq-q" onclick="toggleFaq(${i})">${f.q}<span class="faq-toggle" id="ftog${i}">+</span></button>
+    <div class="faq-a" id="fans${i}">${f.a}</div>`;
+  faqList.appendChild(div);
+});
+
+function toggleFaq(i) {
+  const ans = document.getElementById('fans'+i);
+  const tog = document.getElementById('ftog'+i);
+  const open = ans.style.display === 'block';
+  document.querySelectorAll('.faq-a').forEach(a => a.style.display = 'none');
+  document.querySelectorAll('.faq-toggle').forEach(t => t.textContent = '+');
+  if (!open) { ans.style.display = 'block'; tog.textContent = '−'; }
+}
+
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'translateY(0)'; }
+  });
+}, { threshold: 0.07 });
+document.querySelectorAll('.section').forEach(s => {
+  s.style.opacity = '0';
+  s.style.transform = 'translateY(18px)';
+  s.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+  obs.observe(s);
+});
+</script>
+</body>
+</html>
